@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Nishyan Dash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Nishyan Dash is a simple dashboard application built using Vite, React, TypeScript, and Material-UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## Expanding the ESLint configuration
+- [Vite](https://vitejs.dev/): Frontend build tool that provides a fast development server and optimized builds.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): A superset of JavaScript that adds static typing.
+- [Material-UI](https://mui.com/): A React UI framework for building user interfaces with Material Design components.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Make sure you have Node.js and npm installed on your machine.
+
+- Node.js: [Download Here](https://nodejs.org/)
+- npm: [Download Here](https://www.npmjs.com/get-npm)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ardent10/Nishyan-Dash.git
+
+cd Nishyan-Dash
+
+npm install
+
+npm run dev
+
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+visit http://localhost:3000 to view the application.
